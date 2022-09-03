@@ -273,7 +273,7 @@ function ImageUpload() {
           document.getElementById("downbutton").href = "https://testpapergan.s3.ap-northeast-2.amazonaws.com/"+name_uuid;
         }
         else {
-          window.location.replace("testpapercleaner/");
+          window.location.replace("/");
         }
       }
     }
