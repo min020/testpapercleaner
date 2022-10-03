@@ -44,7 +44,7 @@ function ImageUpload() {
       //폼 데이터 생성
       formData.append("files", filesArr_[i]);
     }
-    const p_URL = "http://127.0.0.1:8080/main";
+    const p_URL = "http://121.200.112.145:8000/main";
     axios({
       method: "post",
       url: p_URL,
