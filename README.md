@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# 시험지 Cleaner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+시험지 Cleaner FrontEnd
 
-## Available Scripts
+## 메인화면
 
 In the project directory, you can run:
 
