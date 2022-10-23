@@ -96,7 +96,6 @@ function ImageUpload() {
     }
     document.querySelector("input[type=file]").value = '';
   }
-  
 
   function move_result() {
     if (document.getElementById("upload").style.display=="none") {
@@ -121,22 +120,24 @@ function ImageUpload() {
         <header className="bg-dark py-5">
           <div className="container px-4 px-lg-5">
             <div className="text-center text-white">
-              <h1 className="display-4 fw-bolder">시험지 Cleaner</h1>
+              <h1 className="display-4 fw-bold">시험지 복원</h1>
             </div>
           </div>
         </header>
-        <section className="py-5">
+        <section className="py-3">
           <div className="px-4 px-lg-5 mt-5">
             <div className="justify-content-center">
               <div className="f-m">
                 <div>
-                  <label className="btn-custom mt-auto" for="input-file">업로드</label>
                   <div className="file-list"></div>
-                </div>
-                <form className="f" onSubmit={uploadModule} encType="multipart/form-data">
+                  
+                  <form className="f" onSubmit={uploadModule} encType="multipart/form-data">
+                  <label className="btn-custom fs-100" for="input-file">업로드</label>
                   <input type="file" id="input-file" name="files" onChange={a} style={{display:"none"}} multiple/>
-                  <input className="btn-custom fs-200" type="submit" value="변환하기" />
+                  <input className="btn-custom fs-100" type="submit" value="변환하기" />
                 </form>
+                </div>
+                
               </div>
             </div>
           </div>

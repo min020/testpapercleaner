@@ -1,0 +1,69 @@
+/*
+...normalize
+*/
+
+.tabs.is-boxed{
+    background: #ffffff;
+    width: 100%;
+    border: 1px solid;
+    border-color: white white #868686;
+    font-weight: 400;
+    font-size: 1.2rem; 
+}
+.tabs {
+    margin: 0;
+}
+.tabs li{
+    display: inline-block;
+    width: 9rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.5rem;
+    font-family: "nanumbd";
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+.tabs li.is-active{
+    background-color: #f2ecff;
+    height: 100%;
+    border: 1px solid;
+    border-color: #f2ecff #dbdbdb #f2ecff;
+}
+.contentArea{
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: calc(1.475rem + 2.7vw);
+}
+
+h2 {
+    color: #6b6b6b;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    height: 134.16px;
+}
+
+@font-face{
+    font-family: "dalseo";
+    src: url("./fonts/DalseoDarling.otf");
+}
+
+@font-face{
+    font-family: "nanum";
+    src: url("./fonts/NanumGothic.otf");
+  }
+
+@font-face{
+font-family: "nanumbd";
+src: url("./fonts/NanumGothicBold.otf");
+}
+
+@font-face{
+font-family: "nanumebd";
+src: url("./fonts/NanumGothicExtraBold.otf");
+}

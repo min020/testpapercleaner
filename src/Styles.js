@@ -15,7 +15,7 @@ export const Background = styled.div`
 `;
 
 export const LoadingText = styled.div`
-    font-family: 'sans-serif';
-    font-size: 2rem;
+    font-family: "nanumbd";
+    font-size: 3rem;
     text-align: center;
 `;
