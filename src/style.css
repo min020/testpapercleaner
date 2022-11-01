@@ -8,7 +8,8 @@
     border: 1px solid;
     border-color: white white #868686;
     font-weight: 400;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
+    padding: 0;
 }
 .tabs {
     margin: 0;
@@ -21,7 +22,6 @@
     font-family: "nanumbd";
     box-sizing: border-box;
     text-align: center;
-    cursor: pointer;
 }
 .tabs li.is-active{
     background-color: #f2ecff;
@@ -46,11 +46,6 @@ h2 {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
     height: 134.16px;
-}
-
-@font-face{
-    font-family: "dalseo";
-    src: url("./fonts/DalseoDarling.otf");
 }
 
 @font-face{
