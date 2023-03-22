@@ -1,6 +1,6 @@
-# 시험지 Cleaner
+# Paper Cleaner
 
-시험지 Cleaner FrontEnd
+Paper Cleaner FrontEnd
 
 ## 메인화면
 
